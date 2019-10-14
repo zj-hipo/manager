@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="manager-mapper" />
+        <module name="manager-pojo" />
+        <module name="manager-service" />
+        <module name="manager-web" />
+        <module name="pojo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="manager" target="1.5" />
+      <module name="manager-mapper" target="1.7" />
+      <module name="manager-pojo" target="1.7" />
+      <module name="manager-service" target="1.7" />
+      <module name="manager-web" target="1.7" />
+      <module name="managerpojo" target="1.5" />
+      <module name="pojo" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
